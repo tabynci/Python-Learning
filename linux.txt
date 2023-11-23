@@ -1,0 +1,26 @@
+
+How many users are logged in: who
+Who is the current user: whoami
+Print the date: date
+Show calendar: cal
+Print working directory: pwd
+Print files and directory of the current directory: ls
+Manual help: man whoami
+Create a new directory: mkdir directoryname
+Create a new empty file: touch filename
+Remove a directory: rmdir directoryname
+Remove a file: rm filename
+Remove a directory and its content: rm -r directoryname
+Display list of available commands: help
+Clear terminal: clear, ctrl+l
+Exit session: ``exit`
+Display date: date
+Display time: time
+Print information: hello
+Increase the font size: Ctrl, shift and +
+Print 5 random numbers between 1 and 100: shuf -i 1-100 -n 5
+Creating file using the shuf command: touch dir$(shuf -i 1-10 -n 1)/sunny.txt 
+Simple user: $ prompt
+Root user/admin: # prompt
+Switch from simple user to root user: sudo -i
+Switch from root to simple user: exit
